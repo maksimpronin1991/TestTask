@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentum App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="weather-card">
+      <div class="error">
+        <p class="error-text">City not found</p>
+      </div>
+      <div class="weather">
+        <h2 class="city">--</h2>
+        <h1 class="temp">--</h1>
+        <div class="flex"></div>
+        <img src="./img/sunn.png" class="weather-icon" alt="Weather Icon">
+      </div>
+    </div>
+
+    <div class="clock-card">
+      <div class="time">
+        <span class="hours">00</span>
+        <span>:</span>
+        <span class="minutes">00</span>
+        <span>:</span>
+        <span class="seconds">00</span>
+      </div>
+
+      <div class="date">
+        <span class="day">--</span> 
+        <span class="month">--</span>
+      </div>
+      <div class="weekDay">
+        <span class="dayOfWeek">--</span>
+      </div>
+    </div>
+    <div class="todo-list">
+      <div class="todo">
+        <input type="text" class="todo-input" placeholder="Enter task">
+      </div>
+      <div class="todo-list-container">
+        <ul class="todo-list-ul">
+        </ul>
+      </div>
+      <div class="close-btn">
+        <span class="close-btn-text">Close finished tasks</span>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
